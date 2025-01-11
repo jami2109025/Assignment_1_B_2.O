@@ -1,0 +1,159 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header,
+main {
+    margin: 0 150px;
+}
+
+.nav {
+    /* margin: 0 150px; */
+    display: flex;
+    /* gap: 1000px; */
+    justify-content: space-between;
+}
+
+.nav_1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.btn {
+    height: 52px;
+    width: 116px;
+    color: #006A50;
+    border-color: #006A50;
+    border-radius: 5px;
+    margin-top: 24px;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.nav_2 {
+    display: flex;
+    /* gap: 1000px; */
+    justify-content: space-around;
+    background-color: #C6E4D6;
+}
+
+.nav_3 {
+    color: #0E0E0E;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav_4 {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 56px;
+    /* height: auto; */
+}
+
+.btn_1 {
+    height: auto;
+    width: auto;
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+
+.nav_5 {
+    margin: 117px 600px 117px 60px;
+
+}
+
+.img {
+    display: flex;
+    width: 475px;
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_section_1 {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header_img {
+    height: 64px;
+    width: 64px;
+}
+
+.box_1 {
+    background-color: #adccf7;
+}
+
+.btn_2 {
+    background-color: #5490F5;
+    border-radius: 5px;
+    border: none;
+}
+
+.box_2 {
+    background-color: #C6E4D6;
+}
+
+.btn_3 {
+    background-color: #09A15C;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.box_3 {
+    background-color: #F7EBCF;
+}
+
+.btn_4 {
+    background-color: #FFC239;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.Dr_MY_section{
+    margin-top: 15px;
+    
+}
+
+.Dr_MY_section {
+    position: relative;
+    text-align:left;
+}
+
+.Dr_MY_section img {
+    position: absolute;
+    z-index: auto; /* Places the image behind other elements */
+}
+
+.Dr_MY_section p {
+    position: relative;
+    color: black; 
+    margin: 20px auto;
+    padding-top: 10px;
+}
