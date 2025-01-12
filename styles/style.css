@@ -14,9 +14,7 @@ main {
 }
 
 .nav {
-    /* margin: 0 150px; */
     display: flex;
-    /* gap: 1000px; */
     justify-content: space-between;
 }
 
@@ -36,24 +34,21 @@ main {
     font-size: 18px;
 }
 
-.nav_2 {
+.header_section{
     display: flex;
-    /* gap: 1000px; */
-    justify-content: space-around;
-    background-color: #C6E4D6;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 30px;
 }
 
-.nav_3 {
-    color: #0E0E0E;
-    font-weight: 500;
-    font-size: 24px;
+.heading_3{
+    padding: 20px;
+    text-align: left bottom;
 }
 
-.nav_4 {
-    color: #0E0E0E;
+.heading_2{
     font-weight: bold;
-    font-size: 56px;
-    /* height: auto; */
+    font-size: 56;
 }
 
 .btn_1 {
@@ -99,11 +94,6 @@ main {
     font-weight: bold;
 }
 
-.header_img {
-    height: 64px;
-    width: 64px;
-}
-
 .box_1 {
     background-color: #adccf7;
 }
@@ -136,24 +126,92 @@ main {
 
 }
 
-.Dr_MY_section{
+.Dr_MY_section {
     margin-top: 15px;
-    
+
 }
 
 .Dr_MY_section {
     position: relative;
-    text-align:left;
+    text-align: left;
 }
 
 .Dr_MY_section img {
     position: absolute;
-    z-index: auto; /* Places the image behind other elements */
+    z-index: auto;
+    /* Places the image behind other elements */
 }
 
 .Dr_MY_section p {
     position: relative;
-    color: black; 
+    color: black;
     margin: 20px auto;
     padding-top: 10px;
+}
+
+.opinion_class {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 15px;
+    background-color: #C6E4D6;
+}
+
+.opinion_class_1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 15px;
+
+}
+
+.opinion_class_2 {
+    background-color: #C6E4D6;
+}
+
+.recent_class{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.recent_img{
+    /* text-align: center; */
+    height: 306px;
+    width: 408px;
+    border-radius: 20px;
+    
+}
+
+.recent_class_2{
+    margin-top:-25px;
+}
+
+.donate_section{
+    text-align: center;
+    width: 80%;
+}
+.donate_section_2{
+    display: flex;
+    width: 100%;
+    height: 64px; 
+    gap: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.donate_section_3{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.donate_input{
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    border: 1px none;
 }
