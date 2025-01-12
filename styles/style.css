@@ -9,7 +9,7 @@ body {
 }
 
 .header,
-main {
+main,footer {
     margin: 0 150px;
 }
 
@@ -34,19 +34,19 @@ main {
     font-size: 18px;
 }
 
-.header_section{
+.header_section {
     display: flex;
     gap: 20px;
     border-radius: 10px;
     padding: 30px;
 }
 
-.heading_3{
+.heading_3 {
     padding: 20px;
     text-align: left bottom;
 }
 
-.heading_2{
+.heading_2 {
     font-weight: bold;
     font-size: 56;
 }
@@ -169,7 +169,7 @@ main {
     background-color: #C6E4D6;
 }
 
-.recent_class{
+.recent_class {
     display: flex;
     gap: 20px;
     background-color: #fff;
@@ -177,41 +177,91 @@ main {
     padding: 30px;
 }
 
-.recent_img{
+.recent_img {
     /* text-align: center; */
     height: 306px;
     width: 408px;
     border-radius: 20px;
-    
+
 }
 
-.recent_class_2{
-    margin-top:-25px;
+.recent_class_2 {
+    margin-top: -25px;
 }
 
-.donate_section{
+.donate_section {
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
-.donate_section_2{
+
+.donate_section_2 {
     display: flex;
     width: 100%;
-    height: 64px; 
+    height: 64px;
     gap: 10px;
     border-radius: 10px;
     padding: 15px;
     justify-content: center;
 }
 
-.donate_section_3{
+.donate_section_3 {
     width: 150px;
     height: 40px;
     text-align: center;
 }
 
-.donate_input{
+.donate_input {
     text-align: center;
     width: 90%;
     padding: 10px;
     border: 1px none;
+}
+
+.footer_class {
+    text-align: center;
+}
+
+.footer_class_1 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hr {
+    width: 80%;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.subscribe_input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 800px;
+    outline: none;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #006A50;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
